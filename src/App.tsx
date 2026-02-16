@@ -3,7 +3,7 @@ import { SECTION_KEYS, type SectionKey } from "./Structures/types";
 import { NAV_ITEMS,TermsContent,PrivacyContent,LegalContent,SupportContent } from './Components/constants';
 import './App.css'
 
-const LOGO_URL = "../public/Nexion White.png";
+const LOGO_URL = "/Nexion White.png";
 
 interface AppState {
   activeSection: SectionKey;
